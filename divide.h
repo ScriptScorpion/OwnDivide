@@ -1,6 +1,6 @@
 #pragma once
 #include <stdlib.h>
-static inline int divide(long int dividend, long int divisor) {
+static inline int divide(const long int dividend, const long int divisor) {
     if (divisor == 0 || dividend == 0) {
         return 0;
     }
